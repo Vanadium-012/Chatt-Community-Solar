@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CommunitySolar-Array.kml</name>
+	<Schema name="Urban-solarpanel-analysis" id="S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+		<SimpleField type="string" name="Store_Name"><displayName>&lt;b&gt;Store Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="StoreID"><displayName>&lt;b&gt;StoreID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Latitude_"><displayName>&lt;b&gt;Latitude &lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitude"><displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Address"><displayName>&lt;b&gt;Address&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Store_Brand"><displayName>&lt;b&gt;Store Brand&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Parking_Lot_Area__square_meters_"><displayName>&lt;b&gt;Parking Lot Area (square meters)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Panel_Area__square_meters_"><displayName>&lt;b&gt;Panel Area (square meters)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Total_Covered_Area"><displayName>&lt;b&gt;Total Covered Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Parking_Lot_Perimeter__Meters_"><displayName>&lt;b&gt;Parking Lot Perimeter (Meters)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Parking_Lot_Area__Square_Feet_"><displayName>&lt;b&gt;Parking Lot Area (Square Feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Parking_Lot_Perimeter__Kilometers_"><displayName>&lt;b&gt;Parking Lot Perimeter (Kilometers)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="System_Losses"><displayName>&lt;b&gt;System Losses&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Panel_Efficiency"><displayName>&lt;b&gt;Panel Efficiency&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Temperature_Coefficient"><displayName>&lt;b&gt;Temperature Coefficient&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Jan_"><displayName>&lt;b&gt;Solar Irradiance, Jan.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Feb_"><displayName>&lt;b&gt;Solar Irradiance, Feb.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Mar_"><displayName>&lt;b&gt;Solar Irradiance, Mar.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Apr_"><displayName>&lt;b&gt;Solar Irradiance, Apr.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__May_"><displayName>&lt;b&gt;Solar Irradiance, May.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Jun_"><displayName>&lt;b&gt;Solar Irradiance, Jun.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Jul_"><displayName>&lt;b&gt;Solar Irradiance, Jul.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Aug_"><displayName>&lt;b&gt;Solar Irradiance, Aug.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Sept_"><displayName>&lt;b&gt;Solar Irradiance, Sept.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Oct_"><displayName>&lt;b&gt;Solar Irradiance, Oct.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Nov_"><displayName>&lt;b&gt;Solar Irradiance, Nov.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance__Dec_"><displayName>&lt;b&gt;Solar Irradiance, Dec.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Solar_Irradiance_yr"><displayName>&lt;b&gt;Solar Irradiance/yr&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle1">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle2">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Store Name</b></td><td>$[Urban-solarpanel-analysis/Store_Name]</td></tr>
+  <tr><td><b>StoreID</b></td><td>$[Urban-solarpanel-analysis/StoreID]</td></tr>
+  <tr><td><b>Latitude </b></td><td>$[Urban-solarpanel-analysis/Latitude_]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Urban-solarpanel-analysis/Longitude]</td></tr>
+  <tr><td><b>Address</b></td><td>$[Urban-solarpanel-analysis/Address]</td></tr>
+  <tr><td><b>Store Brand</b></td><td>$[Urban-solarpanel-analysis/Store_Brand]</td></tr>
+  <tr><td><b>Parking Lot Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__square_meters_]</td></tr>
+  <tr><td><b>Panel Area (square meters)</b></td><td>$[Urban-solarpanel-analysis/Panel_Area__square_meters_]</td></tr>
+  <tr><td><b>Total Covered Area</b></td><td>$[Urban-solarpanel-analysis/Total_Covered_Area]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Meters)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Meters_]</td></tr>
+  <tr><td><b>Parking Lot Area (Square Feet)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Area__Square_Feet_]</td></tr>
+  <tr><td><b>Parking Lot Perimeter (Kilometers)</b></td><td>$[Urban-solarpanel-analysis/Parking_Lot_Perimeter__Kilometers_]</td></tr>
+  <tr><td><b>System Losses</b></td><td>$[Urban-solarpanel-analysis/System_Losses]</td></tr>
+  <tr><td><b>Panel Efficiency</b></td><td>$[Urban-solarpanel-analysis/Panel_Efficiency]</td></tr>
+  <tr><td><b>Temperature Coefficient</b></td><td>$[Urban-solarpanel-analysis/Temperature_Coefficient]</td></tr>
+  <tr><td><b>Solar Irradiance, Jan.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jan_]</td></tr>
+  <tr><td><b>Solar Irradiance, Feb.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Feb_]</td></tr>
+  <tr><td><b>Solar Irradiance, Mar.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Mar_]</td></tr>
+  <tr><td><b>Solar Irradiance, Apr.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Apr_]</td></tr>
+  <tr><td><b>Solar Irradiance, May.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__May_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jun.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jun_]</td></tr>
+  <tr><td><b>Solar Irradiance, Jul.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Jul_]</td></tr>
+  <tr><td><b>Solar Irradiance, Aug.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Aug_]</td></tr>
+  <tr><td><b>Solar Irradiance, Sept.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Sept_]</td></tr>
+  <tr><td><b>Solar Irradiance, Oct.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Oct_]</td></tr>
+  <tr><td><b>Solar Irradiance, Nov.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Nov_]</td></tr>
+  <tr><td><b>Solar Irradiance, Dec.</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance__Dec_]</td></tr>
+  <tr><td><b>Solar Irradiance/yr</b></td><td>$[Urban-solarpanel-analysis/Solar_Irradiance_yr]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Urban-solarpanel-analysis</name>
+		<open>1</open>
+		<Placemark>
+			<name>Walmart Supercenter #5251</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Supercenter #5251</SimpleData>
+					<SimpleData name="StoreID">WM#1</SimpleData>
+					<SimpleData name="Latitude_">35° 0&apos;34.82&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°12&apos;20.05&quot;W</SimpleData>
+					<SimpleData name="Address">490 Greenway View Drive, Chattanooga TN 37411</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">36659</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">29327.2</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">760</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">394597</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.76</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">20650.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">21620.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">27004.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">28253.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">30510.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">29897</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">29907.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">31331.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">27988.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">26785.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">21998.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">19226.3</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">315175</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.20556944444444,35.00967222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walmart Supercenter #1469</name>
+			<styleUrl>#pointStyleMap2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Supercenter #1469</SimpleData>
+					<SimpleData name="StoreID">WM#2</SimpleData>
+					<SimpleData name="Latitude_">35° 1&apos;58.12&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 9&apos;5.41&quot;W</SimpleData>
+					<SimpleData name="Address">2020 Gunbarrel Rd Ste 250, Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">19483</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">15586.4</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">614</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">209714</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.61</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">8780</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">10177.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">11481.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">12413.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">12972</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">13135.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">12715.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">13321.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">12296.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">11388.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">9665</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">8174.5</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">136521</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.15271300826009,35.03090968209381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walmart Supercenter #3659</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Supercenter #3659</SimpleData>
+					<SimpleData name="StoreID">WM#3</SimpleData>
+					<SimpleData name="Latitude_">35° 5&apos;39.81&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°19&apos;50.99&quot;W</SimpleData>
+					<SimpleData name="Address">501 Signal Mountain Rd, Chattanooga, TN 37405</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">22247</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">17797.6</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">654</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">239462</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.65</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">12532.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">13120.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">16388</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">17146.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">18515.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">18143.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">18149.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">19014.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">16985.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">16255</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">13350.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">11667.7</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">191268</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.33083055555555,35.09439166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walmart Neighborhood Market #3619</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Neighborhood Market #3619</SimpleData>
+					<SimpleData name="StoreID">WM#4</SimpleData>
+					<SimpleData name="Latitude_">35° 6&apos;53.59&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°15&apos;44.15&quot;W</SimpleData>
+					<SimpleData name="Address">3901 Hixson Pike, Chattanooga, TN 37415</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">4581</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">3664.08</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">276</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">49314</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.28</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">2580.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">2701.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">3374.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">3530.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">3812.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">3736</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">3737.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">3915.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">3497.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">3347.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">2749</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">2402.5</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">39384.6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.2622638888889,35.11488611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walmart Supercenter #1606</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Supercenter #1606</SimpleData>
+					<SimpleData name="StoreID">WM#5</SimpleData>
+					<SimpleData name="Latitude_">35° 9&apos;11.58&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°14&apos;47.93&quot;W</SimpleData>
+					<SimpleData name="Address">5764 Highway 153, Chattanooga, TN 37343</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">19365</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">15492</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">546</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">208438</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.55</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">10908.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">11420.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">14265</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">14924.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">16116.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">15793</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">15798.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">16550.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">14784.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">14149.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">11620.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">10156.2</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">166490</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.24664722222222,35.15321666666664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walmart Supercenter #3660</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Supercenter #3660</SimpleData>
+					<SimpleData name="StoreID">WM#6</SimpleData>
+					<SimpleData name="Latitude_">35° 1&apos;0.33&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°22&apos;33.58&quot;W</SimpleData>
+					<SimpleData name="Address">3550 Cummings Hwy Chattanooga, TN 37419</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">30072</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">24057.6</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">713</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">323687</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.71</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">16939.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">17735.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">22152.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">23177</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">25028</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">24525</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">24533.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">3305.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">2953</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">2826.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">2321.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">15771.6</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">181269</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.37599444444444,35.01675833333335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walmart Neighborhood Market</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Walmart Neighborhood Market</SimpleData>
+					<SimpleData name="StoreID">WM#7</SimpleData>
+					<SimpleData name="Latitude_">35° 0&apos;18.26&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 8&apos;58.44&quot;W</SimpleData>
+					<SimpleData name="Address">8101 East Brainerd Rd, Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">Walmart</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">4835</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">3868</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">294</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">52046</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.29</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">2723.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">2851.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">3561.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">3726.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">4024</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">3943.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">3944.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">4132.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">3691.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">3532.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">2901.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">2535.7</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">41568.2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.14956666666666,35.00507222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Target Chattanooga East</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Target Chattanooga East</SimpleData>
+					<SimpleData name="StoreID">Target#1</SimpleData>
+					<SimpleData name="Latitude_">35° 1&apos;29.01&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 9&apos;23.07&quot;W</SimpleData>
+					<SimpleData name="Address">1816 Gunbarrel Rd Chattanooga, TN 37421-3129</SimpleData>
+					<SimpleData name="Store_Brand">Target</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">16868</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">13494.4</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">516</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">181459</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.52</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">9501.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">9948.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">12425.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">13000.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">14038.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">13756.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">13761.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">14416.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">12878.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">12324.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">10122.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">8846.6</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">145022</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.15640833333335,35.02472499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Target Chattanooga North</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Target Chattanooga North</SimpleData>
+					<SimpleData name="StoreID">Target#2</SimpleData>
+					<SimpleData name="Latitude_">35° 8&apos;45.75&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°15&apos;3.61&quot;W</SimpleData>
+					<SimpleData name="Address">5579 Highway 153 Hixson, TN 37343-3748</SimpleData>
+					<SimpleData name="Store_Brand">Target</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">10773</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">8618.4</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">414</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">115957</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.41</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">66068.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">6353.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">7935.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">8302.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">8966</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">8785.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">8788.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">9207.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">8225</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">7871.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">6464.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">5650</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">152620</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.25100277777777,35.14604166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Publix Super Market at Village at Waterside</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Publix Super Market at Village at Waterside</SimpleData>
+					<SimpleData name="StoreID">Publix#1</SimpleData>
+					<SimpleData name="Latitude_">35° 2&apos;36.85&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 8&apos;57.62&quot;W</SimpleData>
+					<SimpleData name="Address">7326 McCutcheon Road, Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">Publix</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">6224</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">4979.2</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">312</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">66990</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.31</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">3506</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">3670.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">4584.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">4796.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">5180</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">5075.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">5077.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">5319.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">4751.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">4547.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">3734.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">3264.2</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">53510.1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.14933888888889,35.04356944444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Publix Super Market on North Market Street</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Publix Super Market on North Market Street</SimpleData>
+					<SimpleData name="StoreID">Publix#2</SimpleData>
+					<SimpleData name="Latitude_">35° 3&apos;57.98&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°18&apos;30.34&quot;W</SimpleData>
+					<SimpleData name="Address">400 N Market Street, Chattanooga TN 37405</SimpleData>
+					<SimpleData name="Store_Brand">Publix</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">10192</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">8153.6</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">422</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">109706</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.42</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">5741.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">6010.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">7507.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">7855.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">8482.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">8312</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">8314.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">8710.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">7781.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">7446.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">6116.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">5345.3</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">87624.9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.30842777777778,35.06610555555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Publix Super Market at Mount Vernon Point</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Publix Super Market at Mount Vernon Point</SimpleData>
+					<SimpleData name="StoreID">Publix#3</SimpleData>
+					<SimpleData name="Latitude_">35° 0&apos;53.27&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°19&apos;33.75&quot;W</SimpleData>
+					<SimpleData name="Address">3535 Broad Street, Chattanooga, TN 37409</SimpleData>
+					<SimpleData name="Store_Brand">Publix</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">5709</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">4567.2</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">318</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">61452</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.32</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">3215.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">3367</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">4205.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">4400</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">4751.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">4655.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">4657.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">4879.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">4358.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">4171.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">3425.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">2994.1</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">49082.4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.32604166666667,35.01479722222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Publix Super Market at Hurricane Creek</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Publix Super Market at Hurricane Creek</SimpleData>
+					<SimpleData name="StoreID">Publix#4</SimpleData>
+					<SimpleData name="Latitude_">35°59&apos;57.26&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 8&apos;2.28&quot;W</SimpleData>
+					<SimpleData name="Address">8644 E Brainerd Rd Chattanooga TN 37421-8325</SimpleData>
+					<SimpleData name="Store_Brand">Publix</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">10914</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">8731.2</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">412</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">117480</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.41</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">6148</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">6436.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">8039.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">8411.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">9083.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">8900.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">8904</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">9328</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">8332.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">7717.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">6549.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">5724</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">93575.3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.13359295074713,34.9999586620413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALDI 5706 Lee Hwy</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">ALDI 5706 Lee Hwy</SimpleData>
+					<SimpleData name="StoreID">ALDI#1</SimpleData>
+					<SimpleData name="Latitude_">35° 1&apos;5.26&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°12&apos;16.34&quot;W</SimpleData>
+					<SimpleData name="Address">5706 Lee Hwy Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">ALDI</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">3395</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">2716</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">374</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">36544</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.37</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">1912.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">2002.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">2500.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">2616.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">2825.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">2768.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">2769.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">2901.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">2592</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">2480.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">2037.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">1780.5</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">29187.8</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.20453888888889,35.01812777777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALDI 2020 Gunbarrel Rd, Ste A6</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">ALDI 2020 Gunbarrel Rd, Ste A6</SimpleData>
+					<SimpleData name="StoreID">ALDI#2</SimpleData>
+					<SimpleData name="Latitude_">35° 1&apos;58.18&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 9&apos;5.54&quot;W</SimpleData>
+					<SimpleData name="Address">2020 Gunbarrel Road Ste 154, Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">ALDI</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">2525</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">2020</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">221</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">27184</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.22</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">1422.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">1489.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">1860</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">1946</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">2101.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">2059.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">2059.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">2158</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">1927.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">1844.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">1515.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">1324.2</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">21708</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.15153888888889,35.03282777777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALDI 637 Mundy Street</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">ALDI 637 Mundy Street</SimpleData>
+					<SimpleData name="StoreID">ALDI#3</SimpleData>
+					<SimpleData name="Latitude_">35° 5&apos;52.72&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°19&apos;34.51&quot;W</SimpleData>
+					<SimpleData name="Address">637 Mundy Street, Chattanooga, TN 37405</SimpleData>
+					<SimpleData name="Store_Brand">ALDI</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">3610</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">2888</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">321</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">38858</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.32</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">2033.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">2129</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">2659.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">2782.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">3004.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">2944.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">2945.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">3085.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">2756.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">2637.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">2166.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">1893.3</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">31036.2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.32625277777777,35.09797777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALDI, Hixson</name>
+			<styleUrl>#pointStyleMap1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">ALDI, Hixson</SimpleData>
+					<SimpleData name="StoreID">ALDI#4</SimpleData>
+					<SimpleData name="Latitude_">35° 8&apos;37.28&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°14&apos;50.00&quot;W</SimpleData>
+					<SimpleData name="Address">5510 Hwy 153 Ste 1, Chattanooga, TN 37343</SimpleData>
+					<SimpleData name="Store_Brand">ALDI</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">2824</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">2259.2</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">214</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">30399</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.21</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">1590.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">1665.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">2080.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">2176.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">2350.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">2303</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">2303.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">2413.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">2156</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">2063.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">1694.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">1481</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">24278.6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.24821235254933,35.1438452597943,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, Broad Street</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, Broad Street</SimpleData>
+					<SimpleData name="StoreID">FC#1</SimpleData>
+					<SimpleData name="Latitude_">35° 2&apos;19.53&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°18&apos;40.83&quot;W</SimpleData>
+					<SimpleData name="Address">1375 Broad Street, Chattanooga, TN 37402</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">5748</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">4598.4</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">332</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">61873</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.33</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">3237.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">3390</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">4234.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">4430</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">4783.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">4687.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">4689.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">4912.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">4388.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">4199.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">3449.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">3014.6</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">49417.9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.31134166666665,35.03875833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, Signal Mtn Road</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, Signal Mtn Road</SimpleData>
+					<SimpleData name="StoreID">FC#2</SimpleData>
+					<SimpleData name="Latitude_">35° 5&apos;52.89&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°19&apos;44.44&quot;W</SimpleData>
+					<SimpleData name="Address">703 Signal Mountain Road, Chattanooga, TN 37405</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">7433</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">5946.4</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">383</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">80007</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.38</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">4187.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">4383.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">5475.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">5728.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">6186.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">6061.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">6064</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">6352.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">5675</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">5431</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">4460.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">3898.3</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">63904.5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.3290111111111,35.09802499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, Hixson Pike</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, Hixson Pike</SimpleData>
+					<SimpleData name="StoreID">FC#3</SimpleData>
+					<SimpleData name="Latitude_">35° 6&apos;22.99&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°16&apos;18.74&quot;W</SimpleData>
+					<SimpleData name="Address">3600 Hixson Pike, Chattanooga, TN 37415</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">5265</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">4212</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">296</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">56675</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.3</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">2965.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">3105.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">3878.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">4057.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">4381.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">4293.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">4295.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">4499.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">4019.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">3846.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">3159.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">2761.3</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">45265.2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.27187222222223,35.10638611111109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, TN-17</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, TN-17</SimpleData>
+					<SimpleData name="StoreID">FC#4</SimpleData>
+					<SimpleData name="Latitude_">35° 0&apos;35.54&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°19&apos;36.67&quot;W</SimpleData>
+					<SimpleData name="Address">3801 Tennessee Avenue, Chattanooga, TN 37409</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">4752</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">3801.6</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">274</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">51152</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.27</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">2676.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">2802.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">3500.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">3662.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">3954.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">3875.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">3876.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">4061.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">3628</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">3472.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">2851.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">2492.2</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">40854.7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.32685277777777,35.00987222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, Lee Hwy</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, Lee Hwy</SimpleData>
+					<SimpleData name="StoreID">FC#5</SimpleData>
+					<SimpleData name="Latitude_">35° 2&apos;22.56&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°10&apos;19.06&quot;W</SimpleData>
+					<SimpleData name="Address">6651 Lee Highway Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">6531</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">5224.8</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">507</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">70302</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.51</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">3678.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">3851.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">4810.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">5033.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">5435.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">5326.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">5328.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">5581.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">4986.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">4771.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">3919.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">3425.2</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">56149.5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.17196111111112,35.03960000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, Hwy 58</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, Hwy 58</SimpleData>
+					<SimpleData name="StoreID">FC#6</SimpleData>
+					<SimpleData name="Latitude_">35° 5&apos;3.66&quot;N</SimpleData>
+					<SimpleData name="Longitude">85°11&apos;50.85&quot;W</SimpleData>
+					<SimpleData name="Address">4510 Highway 58 Chattanooga, TN 37416</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">9105</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">7284</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">480</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">98004</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.48</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">5128.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">5369.9</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">6707.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">7017.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">7577.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">7425.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">7428.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">7781.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">6951.5</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">6652.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">5463.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">4775.2</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">78279.5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.19745833333333,35.08435000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food City, East Brainerd</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Urban_solarpanel_analysis_SSSSSSIDSIIDSSSDDDDDDDDDDDDD">
+					<SimpleData name="Store_Name">Food City, East Brainerd</SimpleData>
+					<SimpleData name="StoreID">FC#7</SimpleData>
+					<SimpleData name="Latitude_">35° 0&apos;29.20&quot;N</SimpleData>
+					<SimpleData name="Longitude">85° 9&apos;14.98&quot; W</SimpleData>
+					<SimpleData name="Address">7804 E Brainerd Rd, Chattanooga, TN 37421</SimpleData>
+					<SimpleData name="Store_Brand">Food City</SimpleData>
+					<SimpleData name="Parking_Lot_Area__square_meters_">5163</SimpleData>
+					<SimpleData name="Panel_Area__square_meters_">4130.4</SimpleData>
+					<SimpleData name="Total_Covered_Area">80%</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Meters_">414</SimpleData>
+					<SimpleData name="Parking_Lot_Area__Square_Feet_">55579</SimpleData>
+					<SimpleData name="Parking_Lot_Perimeter__Kilometers_">0.41</SimpleData>
+					<SimpleData name="System_Losses">12.05%</SimpleData>
+					<SimpleData name="Panel_Efficiency">20%</SimpleData>
+					<SimpleData name="Temperature_Coefficient">-0.25%</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jan_">2908.3</SimpleData>
+					<SimpleData name="Solar_Irradiance__Feb_">3045</SimpleData>
+					<SimpleData name="Solar_Irradiance__Mar_">3803.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Apr_">3979.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__May_">4297</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jun_">4210.6</SimpleData>
+					<SimpleData name="Solar_Irradiance__Jul_">4212.1</SimpleData>
+					<SimpleData name="Solar_Irradiance__Aug_">4412.7</SimpleData>
+					<SimpleData name="Solar_Irradiance__Sept_">3941.8</SimpleData>
+					<SimpleData name="Solar_Irradiance__Oct_">3772.4</SimpleData>
+					<SimpleData name="Solar_Irradiance__Nov_">3098.2</SimpleData>
+					<SimpleData name="Solar_Irradiance__Dec_">2707.8</SimpleData>
+					<SimpleData name="Solar_Irradiance_yr">44388.3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.15416111111112,35.00811111111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>
