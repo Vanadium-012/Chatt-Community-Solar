@@ -5,6 +5,7 @@ This is a simple geospatial exercise going over a hypothetical where the major r
 In addition to SQL, the project also includes Python, that calculates the average solar irradiance per month. The script covers each store just as the attached spreadsheet does using data from the National Renewable Energy Labratory/National Labratory of the Rockies, while using Solar Story (https://solarstory.com/peak-sun-hours-calculator/) for more ease-of-access.
 
 Based on the Python script, the averages include:
+
 January Average: 8624.460869565217
 
 February Average: 6193.729166666667
