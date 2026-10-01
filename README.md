@@ -14,8 +14,10 @@ It's important to note that the calculations for the "Internal Car Temperature F
 The key exerpt that fueled the calculations goes as: **"'...we showed that the internal vehicle temperature can reach 117°F within 60 minutes, with 80% of the temperature rise occurring in the first 30 minutes. In general, after 60 minutes, one can expect an (\~)40°F increase in internal temperatures for ambient temperatures spanning 72 to 96°F...'"**
 So, I exercised analytical flexibility to choose a number close to 40°F, and decided on "43.14" to account for internal car temperatures. Two examples of a calculation are as follows:
 
-* 76 degrees Fahrenheit + 43.14 degrees Fahrenheit = 119 degrees Fahrenheit*
-* 92 degrees Fahrenheit + 43.14 degrees Fahrenheit = 135 degrees Fahrenheit*
+* *76 degrees Fahrenheit + 43.14 degrees Fahrenheit = 119 degrees Fahrenheit* 
+* *92 degrees Fahrenheit + 43.14 degrees Fahrenheit = 135 degrees Fahrenheit*
+  
+  (All calculations is rounded for spreadsheet ease-of-access).
 
 As for the "Minutes Shopping" column in the spreadsheet, this metric comes from Capital One Shopping's Research division in a report titled ["Grocery Shopping Statistics"](https://capitaloneshopping.com/research/grocery-shopping-statistics/). The report analyzes how in the United States of America, **"...grocery stores totaled $915.7 billion in 2025..."** and how **"The average American consumer visits the grocery store once every 4.4 days and spends 47 minutes shopping."**
 
@@ -37,3 +39,20 @@ Some key findings during the visualization phase of the analysis are shown below
 ![Tableau Public visualizations depicting heat maps and line charts on outdoor and indoor car temperature](https://github.com/Vanadium-012/Chatt-Community-Solar/blob/main/Tableau%20Story%20and%20Slideshow/Tableau%20Visualizations/Community%20Solar%20AnalysisViz9.png)
 ![Total solar irradiance for each major retailer's parking lot space](https://github.com/Vanadium-012/Chatt-Community-Solar/blob/main/Tableau%20Story%20and%20Slideshow/Tableau%20Visualizations/Community%20Solar%20AnalysisViz4.png)
 ![Total solar irradiance for individual stores](https://github.com/Vanadium-012/Chatt-Community-Solar/blob/main/Tableau%20Story%20and%20Slideshow/Tableau%20Visualizations/Community%20Solar%20AnalysisViz1.png)
+
+
+#### Spatial Analysis Process
+Attached in this repository regarding solar canopies is a .docx file that goes over the methodology. Please refer to it for replicating this study. However, for ease-of-access, here is a numbered list of the process used for parking lot solar irradiance.
+```
+1.) Area-oriented data (square meters, kilometers, meters, square feet) comes from Google Earth Pro metadata in the “measurements” section by right-clicking a polygon, and right clicking Properties.
+
+2.) The Panel Area is calculated by multiplying the Parking Lot Area by the Total Covered Area (e.g. 22247 x 0.80 = 1777.97.6).
+
+3.) Panel Efficiency comes from the hypothetical that N-type panels are being used. These panels have a 21% base cell efficiency based on CleanEnergyReviews’ article on different solar panel types.
+
+4.) System Losses are calculated based on data from SolarSME’s data on the loss percentage on key causes of system losses among different panels. As this project focuses on N-type back face solar panels, the key cause of energy loss is shading, with an assumed 12.05% energy loss.
+
+5.) The temperature coefficient is determined by how, according to JoinSun, N-type panels have temperature coefficients of -0.24% - 0.32%. In the case of this project, -0.25% is used.
+
+6.) The total sun hours per month are calculated from Solar Story. Its data comes from NREL.gov.
+```
