@@ -16,9 +16,9 @@ ax.set_xlabel("Temperature (Fahrenheit)")
 ax.set_ylabel("Frequency (Count of Records)")
 ax.grid(True, axis='y', linestyle='--', alpha=0.5)
 
-# Clean up layout
+# Clean up layout for Readability
 plt.tight_layout()
 
-# 4. Save and Show
+# Saving the Data
 plt.savefig('Internal_Car_Temperatures-Histogram2019_2025.png')
 plt.show()
